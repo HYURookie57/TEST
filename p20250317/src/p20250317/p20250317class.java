@@ -22,10 +22,21 @@ public class p20250317class {
 		System.out.println(Math.pow(2, 1/2) );
 		System.out.println(Math.pow(2, 1.0/2) );
 		System.out.println(Math.pow(2, (double) 1 / 2));
+		
 		int a = 5;
-		int b = ++a;  // a를 먼저 1 증가시키고, 그 값을 b에 대입
+		int b = ++a;  // 증감연산자로서 전위연산자(Prefix) 개념: a를 먼저 1 증가시키고, 그 값을 b에 대입
 		System.out.println(a);  // 출력: 6
 		System.out.println(b);  // 출력: 6
+		
+		int a = 5;
+		int b = a++;  // 증감연산자로서 후위연산자(Postfix) 개념: b에 a의 현재값(5)을 대입하고, 그 후 a를 1 증가
+		System.out.println(a);  // 출력: 6
+		System.out.println(b);  // 출력: 5
+		
+		int x = 10;  // 감소연산자로서 아래 첫번째 줄은 전위연산자, 두번째 줄은 후위연산자이다.
+		System.out.println(--x);  // 출력: 9 (먼저 감소)
+		System.out.println(x--);  // 출력: 9 (나중에 감소)
+		System.out.println(x);    // 출력: 8
 	}
 
 	
