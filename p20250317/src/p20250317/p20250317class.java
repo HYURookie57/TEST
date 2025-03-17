@@ -18,25 +18,54 @@ public class p20250317class {
 //		System.out.println(d*d*d);
 //		System.out.println( Math.pow(d, 3) );
 		
-		System.out.println(Math.pow(2, 0.5) );
-		System.out.println(Math.pow(2, 1/2) );
-		System.out.println(Math.pow(2, 1.0/2) );
-		System.out.println(Math.pow(2, (double) 1 / 2));
+//		System.out.println(Math.pow(2, 0.5) );
+//		System.out.println(Math.pow(2, 1/2) );
+//		System.out.println(Math.pow(2, 1.0/2) );
+//		System.out.println(Math.pow(2, (double) 1 / 2));
+//		
+//		int a = 5;
+//		int b = ++a;  // 증감연산자로서 전위연산자(Prefix) 개념: a를 먼저 1 증가시키고, 그 값을 b에 대입
+//		System.out.println(a);  // 출력: 6
+//		System.out.println(b);  // 출력: 6
+//		
+//		int a = 5;
+//		int b = a++;  // 증감연산자로서 후위연산자(Postfix) 개념: b에 a의 현재값(5)을 대입하고, 그 후 a를 1 증가
+//		System.out.println(a);  // 출력: 6
+//		System.out.println(b);  // 출력: 5
+//		
+//		int x = 10;  // 감소연산자로서 아래 첫번째 줄은 전위연산자, 두번째 줄은 후위연산자이다.
+//		System.out.println(--x);  // 출력: 9 (먼저 감소)
+//		System.out.println(x--);  // 출력: 9 (나중에 감소)
+//		System.out.println(x);    // 출력: 8
+////		
+//		int a = 10;
+//		int b = 11;
+//		
+//		// 11/10=1.1
+//		System.out.println(b + "/" + a + "=" + (float)b/a);
+//		
+//		// 11+10=21
+//		System.out.println(b + "+" + a + "=" + (b + a));
+//		
+//		int a = 10;
+//		int b = 20;
+//
+//		System.out.println(a == b); // false 
+//		System.out.println(a != b); // true
+//		System.out.println(a > b);  // false
+//		System.out.println(a < b);  // true
 		
-		int a = 5;
-		int b = ++a;  // 증감연산자로서 전위연산자(Prefix) 개념: a를 먼저 1 증가시키고, 그 값을 b에 대입
-		System.out.println(a);  // 출력: 6
-		System.out.println(b);  // 출력: 6
+//		int score = 85;
+//		String result = (score >= 80) ? "합격" : "불합격";
+//
+//		System.out.println(result); // 출력: 합격
 		
-		int a = 5;
-		int b = a++;  // 증감연산자로서 후위연산자(Postfix) 개념: b에 a의 현재값(5)을 대입하고, 그 후 a를 1 증가
-		System.out.println(a);  // 출력: 6
-		System.out.println(b);  // 출력: 5
-		
-		int x = 10;  // 감소연산자로서 아래 첫번째 줄은 전위연산자, 두번째 줄은 후위연산자이다.
-		System.out.println(--x);  // 출력: 9 (먼저 감소)
-		System.out.println(x--);  // 출력: 9 (나중에 감소)
-		System.out.println(x);    // 출력: 8
+		int a = 10;
+		int b = 20;
+
+		System.out.println(a > 5 && b > 15); // true (둘 다 참이므로 true)
+		System.out.println(a > 15 || b > 15); // true (하나만 참이면 true)
+		System.out.println(!(a > 5)); // false (true의 반대)
 	}
 
 	
